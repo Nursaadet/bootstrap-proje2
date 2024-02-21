@@ -1,0 +1,259 @@
+.logo {
+  background-image: url(img/resim1-1.jpg);
+  height: 60px;
+  width: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.ayrac {
+  font-size: 20px;
+  margin: 0px 20px;
+  color: white;
+}
+
+.nav-bg {
+  background-color: rgba(139, 0, 0, 0.445);
+}
+
+.ust-kisim {
+  background-image: url(./img/bg2.png);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: var(200px);
+  /* background-attachment: fixed; resmin hiç hareket etmeden yerinde kalmasını sağlıyor.   */
+  /* yükseklik vermezsek resim görünmüyor */
+}
+
+.ust-kisim-sayfalar {
+  background-image: url(./img/altfoto1.png);
+  height: 70vh;
+  width: 100%;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  opacity: var(200px);
+}
+
+.nav-item {
+  color: (rgb(255, 255, 255));
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.nav-link:hover {
+  color: darkblue ;
+  font-size: bolder;
+}
+
+
+
+@media screen and (max-width: 992px) {
+  /* large 992px den azaldığında ayraç yok olsun diye */
+  .ayrac {
+    display: none;
+  }
+  .nav-item:hover {
+    background-color: darkred !important;
+  }
+}
+
+.bosluk {
+  margin-top: 200px;
+}
+
+.clarusway {
+  color: darkred;
+}
+.sporma {
+  color: darkblue;
+}
+
+.isb {
+  margin-left: 100px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+/* teklif kismi  */
+
+.asd {
+  color: darkblue;
+  margin: 34px;
+  font-size: x-large;
+}
+
+.tirnak {
+  color: darkred;
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.teklif {
+  height: 60px;
+}
+
+.hemen {
+  background-color: darkblue;
+  border-radius: 30px;
+  
+}
+.imza {
+  font-size: 20px;
+}
+
+
+/* hismetlerimiz */
+
+.hizmetlerimiz {
+  background-color: darkblue;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  ;
+}
+
+.ak {
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  position: relative;
+  transform: rotateX(180deg)
+  transition: 20s ;
+}
+
+.ak:hover {
+transform: rotate(270deg) ;
+scale:1.1;
+}
+
+.bk {
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  
+}
+
+.bk:hover{
+  scale:1.1;
+  }
+
+.ck {
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+}
+
+.ck:hover{
+  scale:1.1;
+  }
+
+.dk {
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+}
+
+.dk:hover{
+  scale:1.1;
+  }
+
+.ae {
+  color: lightgray;
+  font-size: bold;
+}
+
+.row {
+  color: lightgrey;
+}
+
+.icon{
+  width: 250px;
+  height: 250px;
+}
+
+.icon:hover{
+  transform: rotate(180deg) ;
+  transition: 2s;
+  width: 200px;
+  height: 200px;
+}
+/* Antrenörler */
+
+
+/* calısan classına width verirsek mobildee pixelden dolayı kayma yapabilir */
+
+.calisan_foto {
+  height: 200px;
+  width: 200px;
+  background-color: darkred;
+  border-radius: 200px;
+   flex-wrap: wrap;
+  display: flex; 
+  
+}
+
+.onur {
+  height: 170px;
+  width: 170px;
+  border-radius: 200px;
+}
+
+/* Slogan */
+
+.tirnak1 {
+  color: darkred;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 30px;
+}
+
+.soz {
+  font-size: 24px;
+  color: darkblue;
+  font-weight: bold;
+  text-shadow: darkred 1px 1px;
+}
+.slogan {
+  background-image: url(img/altfoto2.png);
+  background-size: auto;
+  background-attachment: fixed;
+  background-position: center;
+  height: 400px;
+}
+
+.dambil {
+  font-size: 100px;
+  color: darkred;
+}
+
+/* footer */
+.footer{
+  background-color:darkblue ;
+  height: 300px;
+  color:#95a5a6;
+  
+}
+
+.footer p{
+  font-size: 18px;
+}
+
+.footer-sutun{
+height: 300px;
+}
+
+/* HİZMETLERİMİZ-2 */
+
+.hizmetlerimiz-2 {
+  background-color:darkred;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  ;
+}
