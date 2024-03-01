@@ -50,7 +50,18 @@
   font-size: bolder;
 }
 
+.navbar-toggler {
 
+color: darkred;
+border: 1px solid darkred;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.navbar-toggler:hover{
+
+  border: none;
+}
 
 @media screen and (max-width: 992px) {
   /* large 992px den azaldığında ayraç yok olsun diye */
@@ -59,6 +70,27 @@
   }
   .nav-item:hover {
     background-color: darkred !important;
+  }
+  .pozisyon{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 139, 0.267) ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:1;
+    padding-top: 70px;
+  }
+  .navbar-toggler{
+  z-index: 999;
+  position: fixed;
+  right:10px;
+  top: 2px;
+  }
+
+  .navbar-toggler:hover{
+
+    border: 1px solid darkblue;
   }
 }
 
